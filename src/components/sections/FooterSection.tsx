@@ -14,12 +14,12 @@ export default function FooterSection() {
 
   const socialLinks: SocialLink[] = [
     {
-      href: "https://github.com/"+siteConfig.github,
+      href: siteConfig.github,
       labelKey: "footer.socialLinks.github",
       icon: Github,
     },
     {
-      href: "https://linkedin.com/in/"+siteConfig.linkedin,
+      href: siteConfig.linkedin,
       labelKey: "footer.socialLinks.linkedin",
       icon: Linkedin,
     },

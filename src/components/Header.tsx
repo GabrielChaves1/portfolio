@@ -28,11 +28,11 @@ export default function Header() {
       icon: File,
     },
     {
-      href: "https://github.com/"+siteConfig.github,
+      href: siteConfig.github,
       icon: Github,
     },
     {
-      href: "https://linkedin.com/in/"+siteConfig.linkedin,
+      href: siteConfig.linkedin,
       icon: Linkedin,
     },
   ];
