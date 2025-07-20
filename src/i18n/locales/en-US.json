@@ -1,0 +1,108 @@
+{
+  "navigation": {
+    "mainNavigation": "Main navigation",
+    "socialLinks": "Social media links",
+    "aboutMe": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "resume": "Resume"
+  },
+  "hero": {
+    "greeting": "I'm",
+    "name": "Gabriel Chaves",
+    "intro": "a",
+    "role": "Full-stack developer",
+    "building": "building",
+    "description": "scalable digital experiences."
+  },
+  "about": {
+    "badge": "ABOUT ME",
+    "sectionIndicator": "Section indicator",
+    "title": {
+      "behind": "Behind the",
+      "code": "CODE"
+    },
+    "description": {
+      "intro": "I'm a brazilian full-stack developer with over 4 years of experience delivering efficient, scalable, and high-quality solutions.",
+      "technologies": "I work across the entire development lifecycle using <strong class=\"text-surface-100 font-semibold\">Golang</strong>, <strong class=\"text-surface-100 font-semibold\">Node.js</strong>, <strong class=\"text-surface-100 font-semibold\">TypeScript</strong>, <strong class=\"text-surface-100 font-semibold\">React.js</strong>, and <strong class=\"text-surface-100 font-semibold\">Vue.js</strong>, with experience in <strong class=\"text-surface-100 font-semibold\">AWS</strong> and DevOps practices.",
+      "values": "I value clean code, team collaboration, and agile methodologies, always striving for technical growth and solutions aligned with business goals."
+    },
+    "cta": {
+      "text": "Let's Connect",
+      "ariaLabel": "Navigate to contact section"
+    },
+    "experience": {
+      "title": "experience",
+      "items": {
+        "frontendDev": {
+          "title": "Front-end Developer",
+          "company": "Fusion",
+          "period": "Nov 2022 - Present"
+        }
+      }
+    }
+  },
+  "ui": {
+    "scrollToExplore": "Scroll to explore"
+  },
+  "skills": {
+    "badge": "SKILLS",
+    "sectionIndicator": "Section indicator",
+    "title": {
+      "technical": "Technical",
+      "skills": "Skills"
+    },
+    "categories": {
+      "frontEnd": "Front-end Development",
+      "backEnd": "Back-end Development",
+      "devOps": "DevOps & Infra",
+      "tools": "Tools & Others"
+    },
+    "skillsCount": "{{count}} skills",
+    "categoryList": "{{category}} skills list"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "technologies": "Technologies used"
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Interested in working together? Get in touch!",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location"
+  },
+  "footer": {
+    "name": "Gabriel Chaves",
+    "role": "Full-stack Developer",
+    "socialLinks": {
+      "github": "Visit my GitHub profile",
+      "linkedin": "Visit my LinkedIn profile",
+      "email": "Send me an email"
+    },
+    "returnToTop": {
+      "text": "Return to top",
+      "ariaLabel": "Return to top of page"
+    }
+  },
+  "workTogether": {
+    "badge": "Contact",
+    "sectionIndicator": "Contact section",
+    "title": {
+      "ready": "Ready to",
+      "collaborate": "work together?"
+    },
+    "description": "Let's create something amazing together. Get in touch and let's turn your ideas into reality.",
+    "buttons": {
+      "email": "Send Email",
+      "portfolio": "View Portfolio"
+    },
+    "availability": "Available for new projects",
+    "responseTime": "24h response time"
+  }
+}

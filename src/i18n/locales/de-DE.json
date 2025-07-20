@@ -1,0 +1,110 @@
+{
+  "navigation": {
+    "mainNavigation": "Hauptnavigation",
+    "socialLinks": "Social Media Links",
+    "aboutMe": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "resume": "Lebenslauf"
+  },
+  "hero": {
+    "greeting": "Ich bin",
+    "name": "Gabriel Chaves",
+    "intro": "ein",
+    "role": "Full-stack Entwickler",
+    "building": "der",
+    "description": "skalierbare digitale Erfahrungen schafft."
+  },
+  "about": {
+    "badge": "ÜBER MICH",
+    "sectionIndicator": "Abschnittsindikator",
+    "title": {
+      "behind": "Hinter dem",
+      "code": "CODE"
+    },
+    "description": {
+      "intro": "Ich bin ein Full-stack Entwickler mit über 4 Jahren Erfahrung in der Bereitstellung effizienter, skalierbarer und hochwertiger Lösungen.",
+      "technologies": "Ich arbeite über den gesamten Entwicklungszyklus mit <strong class=\"text-surface-100 font-semibold\">Golang</strong>, <strong class=\"text-surface-100 font-semibold\">Node.js</strong>, <strong class=\"text-surface-100 font-semibold\">TypeScript</strong>, <strong class=\"text-surface-100 font-semibold\">React.js</strong> und <strong class=\"text-surface-100 font-semibold\">Vue.js</strong>, mit Erfahrung in <strong class=\"text-surface-100 font-semibold\">AWS</strong> und DevOps-Praktiken.",
+      "values": "Ich schätze sauberen Code, Teamarbeit und agile Methoden, strebe stets nach technischem Wachstum und Lösungen, die auf Geschäftsziele ausgerichtet sind."
+    },
+    "cta": {
+      "text": "Lass uns vernetzen",
+      "ariaLabel": "Zum Kontaktbereich navigieren"
+    },
+    "experience": {
+      "title": "erfahrung",
+      "items": {
+        "frontendDev": {
+          "title": "Frontend-Entwickler",
+          "company": "Fusion",
+          "period": "Nov 2022 - Heute"
+        }
+      }
+    }
+  },
+  "skills": {
+    "badge": "FÄHIGKEITEN",
+    "sectionIndicator": "Abschnittsindikator",
+    "title": {
+      "technical": "Technische",
+      "skills": "Fähigkeiten"
+    },
+    "categories": {
+      "frontEnd": "Frontend-Entwicklung",
+      "backEnd": "Backend-Entwicklung",
+      "devOps": "DevOps & Infra",
+      "tools": "Tools & Sonstiges"
+    },
+    "skillsCount": "{{count}} Fähigkeiten",
+    "categoryList": "{{category}} Fähigkeitenliste"
+  },
+  "projects": {
+    "title": "Projekte",
+    "viewProject": "Projekt ansehen",
+    "viewCode": "Code ansehen",
+    "technologies": "Verwendete Technologien"
+  },
+  "contact": {
+    "title": "Lass uns sprechen",
+    "subtitle": "Interessiert an einer Zusammenarbeit? Kontaktiere mich!",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort"
+  },
+  "ui": {
+    "scrollToExplore": "Scrollen zum Erkunden"
+  },
+  "footer": {
+    "name": "Gabriel Chaves",
+    "role": "Full-stack Entwickler",
+    "socialLinks": {
+      "github": "Besuchen Sie mein GitHub-Profil",
+      "linkedin": "Besuchen Sie mein LinkedIn-Profil",
+      "email": "Senden Sie mir eine E-Mail"
+    },
+    "returnToTop": {
+      "text": "Nach oben",
+      "ariaLabel": "Zum Seitenanfang zurückkehren"
+    },
+    "copyright": "© {{year}} Gabriel Chaves. Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit React und Tailwind CSS"
+  },
+  "workTogether": {
+    "badge": "Kontakt",
+    "sectionIndicator": "Kontakt-Bereich",
+    "title": {
+      "ready": "Bereit",
+      "collaborate": "zusammenzuarbeiten?"
+    },
+    "description": "Lass uns gemeinsam etwas Großartiges schaffen. Kontaktiere mich und verwandeln wir deine Ideen in die Realität.",
+    "buttons": {
+      "email": "E-Mail senden",
+      "portfolio": "Portfolio ansehen"
+    },
+    "availability": "Verfügbar für neue Projekte",
+    "responseTime": "24h Antwortzeit"
+  }
+}

@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  max-width: 1280px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+
+  --color-surface-50: #ffffff;
+  --color-surface-100: #fafafa;
+  --color-surface-200: #ebebeb;
+  --color-surface-300: #d3d3d3;
+  --color-surface-400: #b1b1b1;
+  --color-surface-500: #858585;
+  --color-surface-600: #595959;
+  --color-surface-700: #373737;
+  --color-surface-800: #1f1f1f;
+  --color-surface-900: #101010;
+  --color-surface-950: #0b0b0b;
+}
+
+.light {
+  --color-surface-50: #0b0b0b;
+  --color-surface-100: #101010;
+  --color-surface-200: #1f1f1f;
+  --color-surface-300: #373737;
+  --color-surface-400: #595959;
+  --color-surface-500: #858585;
+  --color-surface-600: #b1b1b1;
+  --color-surface-700: #d3d3d3;
+  --color-surface-800: #ebebeb;
+  --color-surface-900: #fafafa;
+  --color-surface-950: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.liquid-text {
+  background: linear-gradient(45deg, #00c9ff, #92fe9d, #00c9ff, #92fe9d);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: liquid-wave 4s ease-in-out infinite;
+  position: relative;
+  display: inline;
+}
+
+@supports not (-webkit-background-clip: text) {
+  .liquid-text {
+    background: none;
+    color: #00c9ff;
+    -webkit-text-fill-color: unset;
+  }
+}
+
+.light .liquid-text {
+  background: linear-gradient(45deg, #0066cc, #2d8f3f, #0066cc, #2d8f3f);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes liquid-wave {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  25% {
+    background-position: 100% 50%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  75% {
+    background-position: 0% 100%;
+  }
+}
+
+.light .backdrop-blur-sm {
+  backdrop-filter: blur(4px) brightness(1.1);
+}
+
+.dark .backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
+
+.light [style*="mix-blend-mode: screen"] {
+  mix-blend-mode: normal;
+}
+
+.light #skills img {
+  filter: brightness(0) contrast(100%);
+}
+
+.light canvas {
+  opacity: 0.7;
+}
+
+.dark canvas {
+  opacity: 1;
+}
+
+.light {
+  --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%);
+}
+
+.dark {
+  --hero-gradient: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+}
