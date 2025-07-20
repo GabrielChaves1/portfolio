@@ -92,7 +92,7 @@ export default function ContactSection() {
           </motion.a>
 
           <motion.a
-            href="#"
+            href=""
             className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-surface-600 text-surface-200 text-sm sm:text-base font-semibold rounded-full hover:border-surface-400 hover:text-surface-50 hover:bg-surface-800/50 transition-all duration-300"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={

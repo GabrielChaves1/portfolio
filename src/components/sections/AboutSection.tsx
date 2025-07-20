@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigation } from "../../hooks/useNavigation";
 
 interface Experience {
   id: number;
@@ -12,6 +13,7 @@ interface Experience {
 
 export default function AboutSection() {
   const { t } = useTranslation();
+  const { navigateToSection } = useNavigation();
   const ref = useRef(null);
   const isInView = useInView(ref, {
     once: false,
@@ -142,8 +144,8 @@ export default function AboutSection() {
               ease: "backOut",
             }}
           >
-            <a
-              href="#contact"
+            <button
+              onClick={() => navigateToSection('contact')}
               className="border-2 border-surface-800 group hover:bg-surface-200 transition-all duration-200 p-2 px-4 sm:p-3 sm:px-6 rounded-full inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-surface-500 space-x-1.5 focus:ring-offset-1 hover:text-surface-950 focus:ring-offset-transparent text-sm sm:text-base"
               aria-label={t("about.cta.ariaLabel")}
             >
@@ -162,7 +164,7 @@ export default function AboutSection() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </a>
+            </button>
           </motion.aside>
         </main>
 

@@ -5,6 +5,7 @@ import { useState } from "react";
 import LanguageSelector from "./LanguageSelector";
 import ThemeToggle from "./ThemeToggle";
 import siteConfig from "../config/app.config";
+import { useNavigation } from "../hooks/useNavigation";
 
 interface SocialLink {
   href: string;
@@ -19,11 +20,12 @@ interface NavigationItem {
 
 export default function Header() {
   const { t } = useTranslation();
+  const { navigateToSection } = useNavigation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const socialLinks: SocialLink[] = [
     {
-      href: "#",
+      href: "",
       labelKey: "header.resume",
       icon: File,
     },
@@ -39,15 +41,15 @@ export default function Header() {
 
   const navigationItems: NavigationItem[] = [
     {
-      href: "#about",
+      href: "about",
       labelKey: "navigation.aboutMe",
     },
     {
-      href: "#skills",
+      href: "skills",
       labelKey: "navigation.skills",
     },
     {
-      href: "#contact",
+      href: "contact",
       labelKey: "navigation.contact",
     },
   ];
@@ -72,12 +74,12 @@ export default function Header() {
             <ul className="flex items-center gap-3 xl:gap-4 font-space">
               {navigationItems.map(({ href, labelKey }) => (
                 <li key={href}>
-                  <a
-                    href={href}
+                  <button
+                    onClick={() => navigateToSection(href)}
                     className="text-surface-100 hover:text-surface-500 transition-colors duration-200 focus:outline-none focus:text-surface-50 text-sm xl:text-base"
                   >
                     {t(labelKey)}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
